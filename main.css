@@ -109,6 +109,7 @@ section{
 
 .products-wraper .card img{
     width: 100%;
+    height: 250px;
 }
 
 .products-wraper .card .product-content{
@@ -122,7 +123,7 @@ section{
     margin: 15px 0;
     font-size: 20px;
     font-weight: bold;
-    color: rgb(253, 28, 28);
+    color: rgb(202, 27, 27);
 }
 .products-wraper .card .product-content .pro-footer{
     display: flex;

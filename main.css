@@ -96,8 +96,9 @@ section{
     grid-row: auto;
 }
 .products-wraper .card {
-    margin: 10px;
-    box-shadow: 1px 1px 8px 1px #e7e7e7;
+    margin: 10px 10px 30px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
 }
 .products-wraper .card a{
     text-decoration: none;
@@ -110,6 +111,7 @@ section{
 .products-wraper .card img{
     width: 100%;
     height: 250px;
+    border-radius: 5px 5px 0 0;
 }
 
 .products-wraper .card .product-content{

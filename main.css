@@ -86,7 +86,6 @@ nav span{
 section{
     width: 80%;
     margin: 0 auto;
-
 }
 
 .products-wraper {
@@ -146,5 +145,28 @@ section{
 }
 .products-wraper .card .product-content .pro-footer .add-to-care-btn:hover{
     background-color: rgb(11, 116, 116);
+}
+
+footer{
+    background-color: rgb(9, 9, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+footer .footer-wraper{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-rows: 1fr;
+}
+footer .footer-wraper .foot-menu{
+}
+footer .footer-wraper .foot-menu ul a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .footer-wraper .foot-menu ul a li{
+    list-style: none;
 }
 

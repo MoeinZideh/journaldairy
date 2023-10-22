@@ -43,13 +43,17 @@ header .top-header a{
     margin: auto 10px;
 }
 
+header .top-header a:hover{
+    color: rgb(7, 147, 212);
+    border-color: rgb(7, 147, 212);
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
     background-color: rgb(81, 200, 255);
-
 }
 
 nav ul {
@@ -73,37 +77,71 @@ nav ul a:hover{
 nav ul a li{
     list-style: none;
 }
-
-h3 {
-    font-size: 30px;
-} 
-
-img{
-    width: 50%;
-}
-
-#favFood>ul>li:hover {
+nav span{
+    margin: auto 15px;
     cursor: pointer;
     font-size: 20px;
 }
 
-#favFood>ul :first-child{
-    color: #d42b2b;
+section{
+    width: 80%;
+    margin: 0 auto;
+
 }
 
-#favFood>ul :last-child{
-    color: #911515;
+.products-wraper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    grid-template-rows: 1fr;
+    grid-row: auto;
 }
-
-#usefullLinks {
-    background-color: yellow;
-    padding: 5px 10px;
-    margin: 20px 40px;
-    border: 5px solid #000;
+.products-wraper .card {
+    margin: 10px;
+    box-shadow: 1px 1px 8px 1px #e7e7e7;
 }
-
-.links{
+.products-wraper .card a{
     text-decoration: none;
-    color: #1709e4;
-    font-weight: bold;
+    color:#000
 }
+.products-wraper .card:hover {
+    box-shadow: 1px 1px 15px 3px #e7e7e7;
+}
+
+.products-wraper .card img{
+    width: 100%;
+}
+
+.products-wraper .card .product-content{
+    padding: 10px;
+}
+.products-wraper .card .product-content .pro-short-desc{
+    font-size: 12px;
+    margin: 5px 0 10px;
+}
+.products-wraper .card .product-content .price{
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(253, 28, 28);
+}
+.products-wraper .card .product-content .pro-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.products-wraper .card .product-content .pro-footer .rate span{
+    color: rgba(197, 168, 4, 0.89);
+}
+.products-wraper .card .product-content .pro-footer .add-to-care-btn{
+    background-color: rgb(14, 148, 148);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.products-wraper .card .product-content .pro-footer .add-to-care-btn:hover{
+    background-color: rgb(11, 116, 116);
+}
+

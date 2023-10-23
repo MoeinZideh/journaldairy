@@ -8,6 +8,10 @@ body {
     font-family: Poppins, Lato, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Main shop page */
+
+
+/* header section */
 header .top-header{
     margin: 5px;
     display: flex;
@@ -53,6 +57,8 @@ header .top-header a:hover{
     border-color: rgb(7, 147, 212);
 }
 
+
+/* Navbar section */
 nav{
     margin-bottom: 20px;
     background-color: rgb(81, 200, 255);
@@ -91,6 +97,7 @@ nav .menu span{
     cursor: pointer;
 }
 
+/* Big top images */
 .top-img {
     width: 80%;
     margin: 0 auto 20px;
@@ -102,6 +109,7 @@ nav .menu span{
     border-radius: 5px;
 }
 
+/* Product section */
 section{
     width: 80%;
     margin: 30px auto;
@@ -177,6 +185,8 @@ section .filter-pro form label{
     background-color: rgb(11, 116, 116);
 }
 
+
+/* Footer section */
 footer{
     background-color: rgb(9, 9, 45);
     display: flex;
@@ -193,8 +203,7 @@ footer .footer-wraper{
     gap: 20px;
     margin-bottom: 30px;
 }
-footer .footer-wraper .foot-menu{
-}
+
 footer .footer-wraper .foot-menu ul a{
     text-decoration: none;
     color: #fff;
@@ -226,5 +235,47 @@ footer .footer-wraper .foot-address {
 footer .copy-right {
     color: #b2b2b2;
     font-size: 12px;
+}
+
+/* single page styles */
+
+section .single-product-wraper {
+    display: flex;
+}
+section .single-product-wraper .single-pro-details {
+    padding: 10px;
+}
+section .single-product-wraper .single-pro-details h4{
+    font-size: 28px;
+
+}
+section .single-product-wraper .single-pro-details p{
+    font-size: 14px;
+    margin: 10px 0;
+}
+section .single-product-wraper .single-pro-details .single-product-content .price{
+    font-size: 24px;
+    color: rgb(202, 27, 27);
+    font-weight: bold;
+}
+section .single-product-wraper .single-pro-details .pro-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0;
+}
+section .single-product-wraper .single-pro-details .pro-footer .rate{
+    color: rgba(197, 168, 4, 0.89);
+}
+section .single-product-wraper .single-pro-details .pro-footer .add-to-care-btn{
+    background-color: rgb(14, 148, 148);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+section .single-product-wraper .single-pro-details .pro-footer .add-to-care-btn:hover{
+    background-color: rgb(11, 116, 116);
 }
 

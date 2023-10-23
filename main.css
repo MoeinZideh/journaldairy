@@ -171,9 +171,10 @@ footer .footer-wraper .foot-menu{
 footer .footer-wraper .foot-menu ul a{
     text-decoration: none;
     color: #fff;
-}
-footer .footer-wraper .foot-menu ul a li{
     list-style: none;
+}
+footer .footer-wraper .foot-menu ul a li:hover{
+    color: #b2b2b2;
 }
 footer .footer-wraper .foot-social{
     display: flex;
@@ -185,6 +186,9 @@ footer .footer-wraper .foot-social ul a{
     color: #fff;
     font-size: 24px;
     margin-right: 20px;
+}
+footer .footer-wraper .foot-social ul a i:hover{
+    color: #b2b2b2;
 }
 footer .footer-wraper .foot-address {
     display: flex;

@@ -349,6 +349,20 @@ article .ProjectScreen img{
     width: 100%;
 }
 
+/******************************* Animations ********************************/
+
+
+@keyframes rotateIcons {
+    from {color: rgba(10, 117, 76, 0.719);}
+    to {color: yellow;}
+  }
+  
+
+  .ProjectScreen h2 {
+    animation-name: rotateIcons;
+    animation-duration: 4s;
+  }
+
 /****************************** Media query *******************************/
 
 @media screen and (max-width: 768px) {

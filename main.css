@@ -244,6 +244,10 @@ footer .copy-right {
 
 section .single-product-wraper {
     display: flex;
+    flex-wrap: wrap;
+}
+section .single-product-wraper>div {
+    flex: 1 1 10em;
 }
 section .single-product-wraper .single-pro-details {
     padding: 10px;

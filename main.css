@@ -96,6 +96,9 @@ nav .menu span{
     margin: auto 15px;
     cursor: pointer;
 }
+nav .menu span.hamber{
+    display: none;
+}
 
 /***************************** Main page styles **********************************/
 /* Big top images */
@@ -287,21 +290,23 @@ article{
 }
 article h1{
     color: #fff;
-    border: 1px solid #000;
-
+    width: 80%;
+    margin: 0 auto;
 }
 article .main-content{
     width: 80%;
     margin: 30px auto;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 article .main-content>div{
     box-shadow: 1px 1px 10px 3px #e7e7e7;
     background-color: #fff;
     padding: 20px;
-    flex-basis: 100%;
+    flex: 1 1 10em;
 }
+
 article .main-content .improvement span{
     font-size: 40px;
     color: #fff;
@@ -332,6 +337,33 @@ article .main-content .project span{
 }
 article .main-content>div>h2{
     margin: 20px 0 5px;
+}
+article .ProjectScreen{
+    width: 80%;
+    margin: 0 auto;
+}
+article .ProjectScreen h2{
+    color: #fff;
+}
+article .ProjectScreen img{
+    width: 100%;
+}
+
+/****************************** Media query *******************************/
+
+@media screen and (max-width: 768px) {
+    header .top-header .search {
+        display: none;
+    }
+    nav .menu ul {
+      display: none;
+    }
+    nav .menu span.basket {
+      display: none;
+    }
+    nav .menu span.hamber {
+      display: block;
+    }
 }
 
 

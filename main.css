@@ -291,6 +291,7 @@ article{
     background-color: #b2b2b2;
     padding: 30px;
 }
+
 article h1{
     color: #fff;
     width: 80%;
@@ -334,7 +335,7 @@ article .main-content .errors span{
 article .main-content .project span{
     font-size: 40px;
     color: #fff;
-    background-color: rgb(209, 207, 58);
+    background-color: #f1c50e;
     border-radius: 5px;
     padding: 5px;
 }

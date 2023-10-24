@@ -351,7 +351,6 @@ article .ProjectScreen img{
 
 /******************************* Animations ********************************/
 
-
 @keyframes rotateIcons {
     from {color: rgba(10, 117, 76, 0.719);}
     to {color: yellow;}
@@ -359,8 +358,7 @@ article .ProjectScreen img{
   
 
   .ProjectScreen h2 {
-    animation-name: rotateIcons;
-    animation-duration: 4s;
+    animation: rotateIcons 5s infinite;
   }
 
 /****************************** Media query *******************************/

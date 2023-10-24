@@ -61,7 +61,7 @@ header .top-header a:hover{
 
 /* Navbar section */
 nav{
-    background-color: rgb(81, 200, 255);
+    background-color: #333333;
 }
 nav .menu{
     display: flex;
@@ -69,6 +69,7 @@ nav .menu{
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    color: #fff;
 }
 
 nav .menu ul {
@@ -81,7 +82,7 @@ nav .menu ul a{
     text-decoration: none;
     padding: 10px;
     margin: 0 5px;
-    color: #000;
+    color: #fff;
 } 
 
 nav .menu ul a:hover{

@@ -71,6 +71,9 @@ nav .menu{
     margin: 0 auto;
     color: #fff;
 }
+nav .menu input{
+    display: none;
+}
 
 nav .menu ul {
     display: flex;
@@ -92,6 +95,7 @@ nav .menu ul a:hover{
 nav .menu ul a li{
     list-style: none;
 }
+
 nav .menu span{
     margin: auto 15px;
     cursor: pointer;
@@ -288,6 +292,9 @@ section .single-product-wraper .single-pro-details .pro-footer .add-to-care-btn:
 }
 
 /******************************* Journal page styles ***************************/
+nav .journal-menu{
+    justify-content: center;
+}
 article{
     background-color: #b2b2b2;
     padding: 30px;
@@ -416,11 +423,28 @@ article .ProjectScreen img{
     header .top-header .search {
         display: none;
     }
+    nav .menu {
+        align-items: start;
+        display: block;
+    }
     nav .menu ul {
       display: none;
+      max-height: 0;
     }
     nav .menu span.hamber {
       display: block;
+    }
+    nav .menu input[type=checkbox]:checked + label + ul{
+        height: 210px;
+        display: block;
+        max-height: 250px;
+        /* flex-direction: column; */
+    }
+    nav .menu input[type=checkbox]:checked + label + span.basket{
+        display: block;
+    }
+    nav .menu input[type=checkbox]:checked + label span{
+        color: #f1c50e
     }
 }
 

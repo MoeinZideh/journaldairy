@@ -54,8 +54,9 @@ header .top-header a{
 }
 
 header .top-header a:hover{
-    color: rgb(7, 147, 212);
-    border-color: rgb(7, 147, 212);
+    /* color: #f1c50e; */
+    background-color: #f7e28f;
+    /* border-color: #f1c50e; */
 }
 
 

@@ -246,14 +246,37 @@ article .main-content>div>h2{
 }
 
 /********************************** Lessons page styles ******************************************/
-section .lessons-wraper {
-   
-}
 section .lessons-wraper .lesson {
-    width: 80%;
-    margin: 0 auto;
+    background-color: #b2b2b2;
     padding: 20px 0;
 }
+section .lessons-wraper .lesson h2{
+    width: 80%;
+    margin: 0 auto;
+}
+section .lessons-wraper .lesson .content {
+    width: 80%;
+    margin: 0 auto 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 5px;
+}
+section .lessons-wraper .lesson .content .content-header{
+    width: 50%;
+}    
+section .lessons-wraper .lesson .content .content-sample{
+    font-weight: bold;
+    width: 50%;
+}    
+section .lessons-wraper .lesson .content .content-sample ul li{
+    list-style: none;
+}    
+section .lessons-wraper .lesson .content .content-sample img{
+    width: 300px;
+    height: 100px;
+}    
 
 
 /********************************** Footer section ******************************************/
@@ -332,6 +355,13 @@ article .accordion-wraper .animate-header {
     }
     article .introduction .intro-me h2{
         text-align: center;
+    }
+    section .lessons-wraper .lesson .content {
+        flex-direction: column;
+    }
+    section .lessons-wraper .lesson .content .content-header {
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
 @media screen and (max-width: 768px) {

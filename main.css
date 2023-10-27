@@ -95,7 +95,6 @@ article .accordion-wraper .animate-header{
     background-color: #ddddddef;
     padding: 20px;
     border-radius: 5px;
-
 }
 .accordion-sction{
     width: 80%;
@@ -161,6 +160,7 @@ article{
     background-color: #b2b2b2;
     padding-top: 30px;
 }
+
 article .introduction{
     display: flex;
     justify-content: space-evenly;
@@ -171,6 +171,7 @@ article .introduction{
     padding: 20px 0;
     border-radius: 5px;
 }
+
 article .introduction img{
     width: 250px;
     height: 250px;
@@ -246,14 +247,20 @@ article .main-content>div>h2{
 }
 
 /********************************** Lessons page styles ******************************************/
-section .lessons-wraper .lesson {
+section .lessons-wraper> :nth-child(odd){
     background-color: #b2b2b2;
+}
+section .lessons-wraper> :nth-child(even){
+    background-color: #ddddddef;
+}
+section .lessons-wraper .lesson {
     padding: 20px 0;
 }
 section .lessons-wraper .lesson h2{
     width: 80%;
     margin: 0 auto;
 }
+
 section .lessons-wraper .lesson .content {
     width: 80%;
     margin: 0 auto 10px;
@@ -263,6 +270,7 @@ section .lessons-wraper .lesson .content {
     background-color: #fff;
     border-radius: 5px;
 }
+
 section .lessons-wraper .lesson .content .content-header{
     width: 50%;
 }    
@@ -274,8 +282,8 @@ section .lessons-wraper .lesson .content .content-sample ul li{
     list-style: none;
 }    
 section .lessons-wraper .lesson .content .content-sample img{
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 150px;
 }    
 
 
@@ -332,15 +340,16 @@ footer .copy-right {
 
 /******************************* Animations ********************************/
 
-@keyframes rotateIcons {
+@keyframes changeBgColor {
     0% {background-color: #333333;}
-    25% {background-color: #b2b2b2;}
-    50% {background-color: #fff;}
+    25% {background-color: #1036dd;}
+    50% {background-color: yellowgreen;}
+    75% {background-color: #ee4b4bef;}
     100% {background-color: #f1c50e;}
 }
 
-article .accordion-wraper .animate-header {
-    animation: rotateIcons 5s infinite;
+#sampleAnimation {
+    animation: changeBgColor 3s infinite;
 }
 
 /****************************** Media query *******************************/
@@ -387,6 +396,9 @@ article .accordion-wraper .animate-header {
     }
     nav .menu input[type=checkbox]:checked + label span{
         color: #f1c50e
+    }
+    section .lessons-wraper .lesson .content .content-sample img{
+        width: 300px;
     }
 }
 

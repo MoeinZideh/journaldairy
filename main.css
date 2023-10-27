@@ -251,7 +251,7 @@ section .lessons-wraper> :nth-child(odd){
     background-color: #b2b2b2;
 }
 section .lessons-wraper> :nth-child(even){
-    background-color: #ddddddef;
+    background-color: #333333;
 }
 section .lessons-wraper .lesson {
     padding: 20px 0;
@@ -259,6 +259,8 @@ section .lessons-wraper .lesson {
 section .lessons-wraper .lesson h2{
     width: 80%;
     margin: 0 auto;
+    color: #333333;
+    margin-bottom: 10px;
 }
 
 section .lessons-wraper .lesson .content {
@@ -268,6 +270,7 @@ section .lessons-wraper .lesson .content {
     display: flex;
     justify-content: space-around;
     background-color: #fff;
+    border: 5px solid #f1c50e;
     border-radius: 5px;
 }
 

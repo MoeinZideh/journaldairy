@@ -253,13 +253,20 @@ section .lessons-wraper> :nth-child(odd){
 section .lessons-wraper> :nth-child(even){
     background-color: #333333;
 }
+section .lessons-wraper .lesson:nth-child(odd) h2{
+   color: #333333;
+}
+section .lessons-wraper .lesson:nth-child(even) h2{
+    color: #b2b2b2;
+}
+
 section .lessons-wraper .lesson {
     padding: 20px 0;
 }
 section .lessons-wraper .lesson h2{
     width: 80%;
     margin: 0 auto;
-    color: #333333;
+    /* color: #333333; */
     margin-bottom: 10px;
 }
 

@@ -291,6 +291,9 @@ section .lessons-wraper .lesson .content .content-sample{
 section .lessons-wraper .lesson .content .content-sample ul li{
     list-style: none;
 }    
+section .lessons-wraper .lesson .content .content-sample ul li i{
+    color: red;
+}    
 section .lessons-wraper .lesson .content .content-sample img{
     width: 400px;
     height: 150px;

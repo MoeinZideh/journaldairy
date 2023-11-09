@@ -259,6 +259,12 @@ section .lessons-wraper .lesson .content .content-sample{
     font-weight: bold;
     width: 50%;
 }    
+section .lessons-wraper .lesson .content .content-sample ol{
+    padding-left: 30px;
+}    
+section .lessons-wraper .lesson .content .content-sample ol p{
+    font-weight: 300;
+}    
 section .lessons-wraper .lesson .content .content-sample ul li{
     list-style: none;
 }    

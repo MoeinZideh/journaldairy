@@ -273,7 +273,7 @@ section .lessons-wraper .lesson .content .content-sample ul li i{
 }    
 section .lessons-wraper .lesson .content .content-sample img{
     width: 400px;
-    height: 150px;
+    height: auto;
 }    
 
 
